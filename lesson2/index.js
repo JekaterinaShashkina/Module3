@@ -17,7 +17,7 @@ input.addEventListener('change', () => {
     function set(par, text) {
       par.textContent = text;
     },
-    1000,
+    300,
     par,
     text,
   );
