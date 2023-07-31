@@ -14,7 +14,7 @@ const array = [
 const filter = (arr) => {
   const regexp = /\S+.(jsx|js|ts)/g;
   const string = arr.join(' ');
-  return string.match(regexp, '*');
+  return string.match(regexp);
 };
 console.log(filter(array));
 
@@ -40,6 +40,7 @@ console.log(string.match(reg3));
 
 // 4. Напишите функцию которая принимает строку, в этой строке находит url адрес и заменяет с помощью replace на тег
 // домены вида http://site.ru, https://site.com на
+
 const string1 = 'dhsjhfls ajkdhas ajdhwhqio https://site.com sakldjl dsdlls';
 const returnTag = (str) => {
   const reg4 = /https\:\/\/.+\.[a-zA-Z]+/g;
