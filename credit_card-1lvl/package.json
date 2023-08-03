@@ -3,6 +3,7 @@
   "scripts": {},
   "author": "Catharin",
   "dependencies": {
+    "creditcardutils": "^1.0.0",
     "redom": "^3.29.1"
   }
 }
