@@ -83,5 +83,4 @@ $('body').on('click', function (event) {
       500,
     );
   }
-  //   console.log($('.navigation')[0]);
 });
